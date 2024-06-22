@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: silver;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.total {
+    font-weight: bold;
+}
